@@ -1,0 +1,396 @@
+/*  
+Theme Name: Mozilla Italia
+Theme URI: http://www.mozillaitalia.org
+Description: Mozilla Italia's theme
+Version: 1.0
+Author: Francesco Lodolo
+Author URI: http://www.flod.org
+*/
+
+body {
+  margin: 0 auto;  
+  font-family: 'Open Sans', sans-serif;
+  background-attachment: fixed;
+  background: #6f67af;
+  background: -moz-linear-gradient(top,  #6f67af 1%, #faf5fe 67%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#6f67af), color-stop(67%,#faf5fe));
+  background: -webkit-linear-gradient(top,  #6f67af 1%,#faf5fe 67%);
+  background: -o-linear-gradient(top,  #6f67af 1%,#faf5fe 67%);
+  background: -ms-linear-gradient(top,  #6f67af 1%,#faf5fe 67%);
+  background: linear-gradient(to bottom,  #6f67af 1%,#faf5fe 67%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6f67af', endColorstr='#faf5fe',GradientType=0 );
+}
+
+section {
+  background: #FAF5FE;
+  padding: 0 10px;
+}
+
+aside {
+  clear: both;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+div#bodycontainer {
+  background: #FAF5FE;
+  -webkit-box-shadow: 0px 4px 8px rgba(111, 103, 175, 0.8);
+  -moz-box-shadow: 0px 4px 8px rgba(111, 103, 175, 0.8);
+  box-shadow: 0px 4px 8px rgba(111, 103, 175, 0.8);
+  position: relative;  
+}
+
+a {
+  color: #df1820;
+}
+
+a:hover {
+  color: #9f1f1d;
+}
+
+.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.alignleft {
+   float: left;
+}
+
+.alignright {
+   float: right;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 23px;
+  line-height: 24px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 19px;
+}
+
+strike {
+  color: #AAA;
+  text-decoration: line-through;
+}
+
+.icon {
+  padding-right: 6px;
+}
+
+div.entry-content {
+  clear: both;
+  padding-top: 6px;
+}
+
+header.entry-header {
+  padding: 10px 0;
+}
+
+/* Navigation previous/next articles */
+
+nav#navposts {
+  margin-top: 30px;
+}
+
+nav#navposts span{
+  display: inline-block;
+  padding: 4px 12px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(51, 51, 51);
+  text-align: center;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: rgb(245, 245, 245);
+  background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(230, 230, 230));
+  background-repeat: repeat-x;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2) inset, 0px 1px 2px rgba(0, 0, 0, 0.05);
+}  
+
+nav#navposts span a{
+  color: #000;
+}
+
+nav#navposts span a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+/* Navigation top menu */
+
+.navbar-inner {
+  background-color: #FAF5FE;
+  background-image: none;
+  border: 0;
+  border-radius: 0;
+}
+
+/* Website Header */
+
+header.site-header {
+  height: 220px;
+  border-top: 2px solid #FFF;
+  padding-left: 220px;
+  background: #a6a6ea url("img/logomi.png") 10px 10px no-repeat;
+  background: url("img/logomi.png") 10px 10px no-repeat, -moz-linear-gradient(top,  #a6a6ea 11%, #faf5fe 100%);
+  background: url("img/logomi.png") 10px 10px no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(11%,#a6a6ea), color-stop(100%,#faf5fe));
+  background: url("img/logomi.png") 10px 10px no-repeat, -webkit-linear-gradient(top,  #a6a6ea 11%,#faf5fe 100%);
+  background: url("img/logomi.png") 10px 10px no-repeat, -o-linear-gradient(top,  #a6a6ea 11%,#faf5fe 100%);
+  background: url("img/logomi.png") 10px 10px no-repeat, -ms-linear-gradient(top,  #a6a6ea 11%,#faf5fe 100%);
+  background: url("img/logomi.png") 10px 10px no-repeat, linear-gradient(to bottom,  #a6a6ea 11%,#faf5fe 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6a6ea', endColorstr='#faf5fe',GradientType=0 );
+}
+
+header.site-header hgroup {
+  height: 180px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+header.site-header h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 72px;
+  line-height: 70px;  
+  margin-top: 40px;
+  margin-left: 15px;
+  padding: 0;
+}
+
+header.site-header h1 a{
+  color: #FFF;
+}
+
+header.site-header h1 a:hover{
+  color: #DDD;
+  text-decoration: none;
+}
+
+header.site-header h2 {  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #FFF;
+  line-height: 26px;    
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+div#sociallinks {
+  position: absolute;
+  top: 160px;
+  right: 20px;
+}
+
+/* Website Footer */
+
+footer#mainfooter {
+  margin-top: 20px; 
+  background: #333 url("img/logomifooter.png") 10px 10px no-repeat;;
+  padding: 10px 0 20px;
+  font-size: 12px;
+  color: #AAA;
+}
+
+footer div#linkfooter {
+  padding-bottom: 20px;
+}
+
+footer#mainfooter h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+footer#mainfooter a {
+  color: #CCC;
+  border-bottom: 1px dotted #CCC;
+}
+
+footer#mainfooter a#license {
+  border: 0;
+}
+
+footer#mainfooter ul {
+  margin: 0;
+}
+
+footer#mainfooter li {  
+  list-style: none;
+  padding: 4px 0;
+  display: block;
+}
+
+/* Sidebar */
+
+div#twitter-updates {
+  padding: 4px 8px;
+  -webkit-border-radius: 6px; 
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 2px 3px 6px rgba(51, 51, 51, 0.48);
+  -moz-box-shadow: 2px 3px 6px rgba(51, 51, 51, 0.48);
+  box-shadow: 2px 3px 6px rgba(51, 51, 51, 0.48);
+}
+
+.form-search #s {
+  width: 260px;
+}
+
+/* First page top section */
+
+div#hometop {
+  padding: 0 0 20px 0;
+}
+
+div#boxcollabora {
+  border: 1px solid #FFD229;  
+  padding: 0 10px;
+  background: #fff6bb;
+  -webkit-border-radius: 6px; 
+  -moz-border-radius: 6px;
+  border-radius: 6px;  
+  background-position: 0 -251px;  
+  -webkit-box-shadow: 2px 3px 6px rgba(214, 191, 19, 0.48);
+  -moz-box-shadow: 2px 3px 6px rgba(214, 191, 19, 0.48);
+  box-shadow: 2px 3px 6px rgba(214, 191, 19, 0.48);
+}
+
+div#introhome p {
+  font-size: 16px;
+}
+
+/* Date in index and single */
+
+article .date {
+  width: 60px;
+  height: 60px;
+  margin: 0 12px 2px 0;
+  text-align: center;
+  color: #FFF;
+  float: left;
+  background: #8d82d8;
+  background: -moz-linear-gradient(-45deg,  #8d82d8 54%, #c4c4ec 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(54%,#8d82d8), color-stop(100%,#c4c4ec));
+  background: -webkit-linear-gradient(-45deg,  #8d82d8 54%,#c4c4ec 100%);
+  background: -o-linear-gradient(-45deg,  #8d82d8 54%,#c4c4ec 100%);
+  background: -ms-linear-gradient(-45deg,  #8d82d8 54%,#c4c4ec 100%);
+  background: linear-gradient(135deg,  #8d82d8 54%,#c4c4ec 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d82d8', endColorstr='#c4c4ec',GradientType=1 );
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.48);
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.48);
+}
+
+article span.month {
+  height: 12px;
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+article span.year {
+  height: 12px;
+  display: block;
+  font-size: 11px;
+}
+
+article span.day {
+  padding-top: 6px;
+  font-weight: bold;
+  display: block;
+  font-size: 22px;
+}
+
+article h1 a {
+  color: #000;
+}
+
+/* Article */
+
+article > footer {
+  font-size: 12px;
+}
+
+
+/* Large desktop */
+@media (max-width: 1200px) {
+  .form-search #s {
+    width: 180px;
+  }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  header.site-header h1 {
+    font-size: 50px;
+    line-height: 48px;
+  }
+
+  header.site-header h2 {  
+    font-size: 20px;
+    line-height: 20px;    
+  }
+
+  div#logofooter {
+    width: 220px;
+  }
+
+  .form-search #s {
+    width: 110px;
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  aside {
+    padding-top: 20px;
+  }
+
+  header.site-header h1 {
+    font-size: 50px;
+    line-height: 48px;
+  }
+
+  header.site-header h2 {  
+    font-size: 20px;
+    line-height: 20px;    
+  }  
+
+  footer#mainfooter {
+    background-image: none;
+  }
+
+  footer#mainfooter {
+    text-align: center;
+  }  
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+  aside {
+    padding-top: 20px;
+  }
+
+  .form-search #s {
+    width: 200px;
+  }
+
+  footer#mainfooter {
+    text-align: center;
+  }
+}

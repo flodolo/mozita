@@ -1,4 +1,4 @@
-mozita
+Mozilla Italia Web Contents
 ======
 
-Mozilla Italia material
+Stuff used on www.mozillaitalia.org
